@@ -1,0 +1,96 @@
+.container {
+    background-color: #fee9e1;
+    font-size: 18px;
+    font-family: "Lora", serif;
+}
+
+.image {
+    width: 250px;
+    margin: -80px auto -120px 40px;
+}
+
+.info {
+    padding: 60px;
+    font-size: 22px;
+    width: 600px;
+}
+
+.box {
+    background-color: #64b6ac;
+}
+
+.name,
+.height,
+.weight,
+.moves,
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    text-align: right;
+}
+
+.text {
+    margin-right: 30px;
+}
+
+.button {
+    width: 100px;
+    border: 3px solid #f694c1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #f694c1;
+    margin: 0 0 20px 210px;
+    font-size: 18px;
+}
+
+.button:hover,
+.remove {
+    background-color: #f694c1;
+    color: azure;
+}
+
+.commentsBox {
+    background-color: #b09e99;
+    overflow-wrap: break-word;
+}
+
+.commentsBox:last-of-type {
+    padding-bottom: 100px;
+}
+
+.comments:first-child {
+    margin-top: 0;
+}
+
+.comments {
+    border: 3px solid #64b6ac;
+    background-color: #fee9e1;
+    width: 600px;
+    margin: 40px auto 0 60px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.details {
+    margin: 20px;
+}
+
+.details::first-line {
+    margin-left: 20px;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px !important;
+}

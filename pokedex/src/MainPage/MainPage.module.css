@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    background-color: #64b6ac;
+    font-family: "Lora", serif;
+}
+
+.tabsBar {
+    text-align: center;
+    padding: 30px 0 0;
+    font-size: 18px;
+    background-color: #fee9e1;
+    color: #b09e99;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.tab {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px 30px 16px;
+}
+
+.tab:hover {
+    background-color: #64b6ac;
+}
+
+.selected {
+    background-color: #64b6ac;
+    color: #c0fdfb;
+}
+
+.btnsContainer {
+    background-color: #fee9e1;
+    padding: 20px;
+}
+
+.nextBtn,
+.prevBtn {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    background-color: #fee9e1;
+    padding: 10px;
+}
+.nextBtn:hover,
+.prevBtn:hover {
+    color: #64b6ac;
+}
+
+.nextBtn {
+    left: calc(50% + 60px);
+}

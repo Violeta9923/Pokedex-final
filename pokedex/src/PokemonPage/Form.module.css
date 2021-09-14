@@ -1,0 +1,33 @@
+.container {
+    background-color: #b09e99;
+    padding-bottom: 20px;
+    font-family: "Lora", serif;
+}
+
+.button {
+    width: 100px;
+    border: 3px solid #64b6ac;
+    color: #64b6ac;
+    text-align: center;
+    margin: 50px auto 30px 290px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #64b6ac;
+    color: azure;
+}
+
+.textBox {
+    margin-left: 60px;
+}
+
+.field {
+    width: 630px;
+}
+
+.field:first-of-type {
+    margin-top: 30px;
+}

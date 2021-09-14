@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+
+.title {
+    font-family: "Lora", serif;
+    text-align: center;
+    font-size: 40px;
+    background-color: #fee9e1;
+    padding: 20px 0;
+    color: #b09e99;
+}
+
+.container {
+    background-color: #64b6ac;
+}
